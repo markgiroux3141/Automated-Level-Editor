@@ -77,3 +77,10 @@ navmesh reachability, clean audit) is the §11 smoke test in the spec.
 
 All build phases (0–6) complete and verified live; the §11 smoke test passes
 (two reachable rooms via a corridor, zero floaters/overlaps/scale-warnings).
+
+## Before you modify the editor
+
+Read [`NOTES-for-agents.md`](NOTES-for-agents.md) — hard-won gotchas (runtime
+navmesh re-baking, floor-seam connectivity, collider-transform timing, the
+off-screen-vs-minimized window trap, GDScript type-inference) that cost real
+debugging and are easy to reintroduce.
