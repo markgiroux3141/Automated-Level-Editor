@@ -1,0 +1,18 @@
+# Godot engine binary (~178 MB) — download separately, see README
+engine/
+
+# Godot import cache / editor state
+project/.godot/
+project/.import/
+*.import
+
+# Runtime I/O (regenerated each run by main.gd on startup)
+project/io/
+project/renders/
+project/checkpoints/
+project/build_log.jsonl
+*.tmp
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
